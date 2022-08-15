@@ -1,0 +1,55 @@
+body{
+font-family:monospace;
+margin: 0;
+padding: 0;
+    
+ }
+
+
+.img{
+ float: left;
+ margin-top: 150px;
+ margin-left: 150px;
+
+}
+
+.header{
+text-align: center;
+margin-top:200px;
+margin-right: 250px;
+
+
+ }
+
+.button{
+    background-color: black;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:10px ;
+}
+
+footer{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 auto;
+    color: #bdbdbd;
+}
+
+@media(min-width:700px){
+
+img{
+    margin-bottom: 200px;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+
+}
